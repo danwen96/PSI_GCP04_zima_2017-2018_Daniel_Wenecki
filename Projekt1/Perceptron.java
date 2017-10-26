@@ -33,7 +33,7 @@ public class Perceptron {
                 global_error = global_error + local_error*local_error;
             }
             if(global_error < 0.001) break;
-            System.out.println("Pentla nr: " + (i + 1));
+            System.out.println("Petla nr: " + (i + 1));
         }
     }
     public double treshhold(double sum)
